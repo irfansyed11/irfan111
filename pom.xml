@@ -29,6 +29,19 @@
 	<build>
 		<finalName>gamutkart</finalName>
 	</build>
+<distributionManagement>
+       <repository>
+              <id>ARTECH-RELEASE</id>
+             <url>http://localhost:8081/nexus/content/repositories/ARTECH-RELEASE/</url>
+       </repository>
+
+
+      <snapshotRepository>
+             <id>ARTECH-SNAPSHOT</id>
+             <url>http://localhost:8081/nexus/content/repositories/ARTECH-SNAPSHOT/</url>
+       </snapshotRepository>
+
+</distributionManagement>
 	
 </project>
 
